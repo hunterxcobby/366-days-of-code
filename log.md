@@ -51,3 +51,97 @@
 
 **link to notes:** [Web Infrastructure](https://github.com/hunterxcobby/WEB-DEV_learning/tree/main/web_infrastructure)
 
+
+
+## Day 65: January 02, 2024
+
+**Today's Progress**: Errors and exceptions . Python
+
+1. **Understanding the Problem:**
+   - The problem involves handling exceptions in Python, specifically `ZeroDivisionError` and `ValueError`.
+   - The goal is to perform integer division of two input values and print the result.
+   - If there's a division by zero or if the input values are not valid integers, the script should print the corresponding error code.
+
+2. **Developing a Solution:**
+   - Created a function `perform_integer_division` to encapsulate the logic for integer division and exception handling.
+   - Utilized a `try-except` block to catch potential exceptions and print the appropriate error code.
+
+3. **Testing the Solution:**
+   - Ran the script with various test cases:
+     - Valid input values for normal integer division.
+     - Division by zero scenario.
+     - Invalid input values causing a `ValueError`.
+   - Ensured that the script behaves as expected and handles exceptions gracefully.
+
+4. **Refining the Solution:**
+   - Reviewed the code to ensure readability and adherence to best practices.
+   - Encapsulated the script logic inside functions for modularity.
+
+5. **Documentation:**
+   - Added comments to the code to explain the purpose of each section.
+   - Included a brief description of the problem at the beginning of the script.
+
+6. **Completion:**
+   - The script successfully addresses the problem by performing integer division and handling exceptions appropriately.
+   - The code is organized, readable, and includes error codes for better understanding in case of exceptions.
+
+
+**link to solution:** [Exceptions](https://github.com/hunterxcobby/Python-Challenges/tree/main/01-HackerRank/14-Exceptions)
+
+
+
+## Day 66: January 03, 2024
+
+**Today's Progress**: Web Infrastructure design - The Project
+
+1. **Understanding Requirements:**
+   - Identified the specific needs and goals of the web infrastructure.
+   - Considered factors such as scalability, reliability, security, and performance.
+   - learned with stakeholders to gather insights into the expected traffic, user base, and future growth.
+
+2. **Defining Architecture:**
+   - Outlined the overall architecture, choosing between monolithic or microservices-based design.
+   - Defined components like web servers, application servers, databases, load balancers.
+   - Determined the technology stack, considering factors like programming languages, frameworks, and databases.
+
+3. **Scalability:**
+   - Designed for horizontal scalability, utilizing load balancing to distribute traffic.
+   - Implemented a strategy for handling increased load, such as auto-scaling mechanisms.
+
+4. **High Availability and Reliability:**
+   - Ensured high availability by implementing redundancy for critical components.
+   - Employed failover mechanisms to handle server or component failures.
+   - Considered a multi-region setup for disaster recovery.
+
+5. **Security:**
+   - Implemented security best practices, including encryption for data in transit and at rest.
+   - Utilized firewalls, intrusion detection systems, and regular security audits.
+   - Ensured secure communication between components.
+
+6. **Performance Optimization:**
+   - Employed content delivery networks (CDNs) for static content to improve load times.
+   - Utilized caching strategies to reduce database load.
+   - Optimized database queries and employed indexing for efficient data retrieval.
+
+7. **Monitoring and Logging:**
+   - Integrated monitoring tools for real-time performance metrics.
+   - Set up logging mechanisms to track and analyze system behavior.
+   - Established alerting systems for immediate response to critical issues.
+
+8. **Deployment and Continuous Integration/Continuous Deployment (CI/CD):**
+   - Designed a robust CI/CD pipeline for automated testing and deployment.
+   - Implemented rolling deployments to minimize downtime during updates.
+
+9. **Documentation:**
+   - Documented the architecture, including diagrams, component interactions, and deployment strategies.
+   - Created runbooks for operations and maintenance tasks.
+
+10. **Collaboration:**
+    - Collaborated with development, operations, and security teams to ensure a holistic approach.
+    - Conducted regular reviews and iterations based on feedback and changing requirements.
+
+11. **Future Considerations:**
+    - Accounted for future scalability requirements and technological advancements.
+    - Planned for periodic architecture reviews and updates.
+
+**link to solution:** [Web Infrastructure Design](https://github.com/hunterxcobby/alx-system_engineering-devops/tree/master/0x09-web_infrastructure_design)
