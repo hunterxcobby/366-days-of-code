@@ -884,3 +884,174 @@ These tasks involved code review, SQL script creation, and Python class updates 
 
 **link to notes:** [Web Server](https://github.com/hunterxcobby/system-devops_learning/tree/main/shell_scripting/0x0C-web_server)
 
+
+
+## Day 86: January 23, 2024
+
+**Today's Progress**: HTTP Requests
+
+1. **Understanding Redirects:**
+   - Explored the concept of redirects and their importance in web development.
+   - Discussed different types of redirects, including 301 (Moved Permanently), 302 (Found or Moved Temporarily), 307 (Moved Temporarily), and Meta Refresh.
+   - Insights into when to use each type of redirect based on specific scenarios.
+
+2. **SEO Best Practices in Redirects:**
+   - Emphasized the SEO best practices when implementing redirects, with a focus on using 301 redirects for permanent changes.
+   - Addressed the impact of redirects on SEO, link equity, and search engine recognition.
+   - Explained the complexity of site-wide domain changes and the considerations involved in SEO-friendly domain migration.
+
+3. **Log File Locations:**
+   - Responded to a query about the location of Nginx configuration files.
+   - Learned common paths for the main Nginx configuration file (`nginx.conf`) on Linux (Ubuntu/Debian and CentOS/RHEL) and Windows systems.
+
+
+**link to notes:** [Web Server](https://github.com/hunterxcobby/system-devops_learning/tree/main/shell_scripting/0x0C-web_server)
+
+
+
+## Day 87: January 24, 2024
+
+**Today's Progress**: Webstack Debugging
+
+1. **HTTP Methods:**
+   - Explored various HTTP methods, including GET, POST, PUT, DELETE, CONNECT, OPTIONS, and TRACE.
+   - Discussed the purpose and usage of each method in web development.
+
+2. **Redirects:**
+   - Explored the concept of redirects in web development.
+   - Discussed common HTTP status codes for redirects, including 301 (Moved Permanently) and 302 (Found or Moved Temporarily).
+   - Examined other redirect methods like 307 (Moved Temporarily) and Meta Refresh.
+
+3. **SEO Best Practices:**
+   - Discussed SEO best practices related to redirects, emphasizing the importance of using 301 redirects for permanent moves.
+   - Highlighted the impact of redirects on search engine rankings and trust.
+
+4. **Nginx Configuration:**
+   - Explored Nginx configuration files and made adjustments to achieve specific redirection requirements.
+   - Addressed issues related to duplicate location directives and the resulting "301 Moved Permanently" responses.
+
+5. **Debugging Apache in Docker Container:**
+   - Explored debugging tasks involving Apache running in a Docker container.
+   - Investigated and resolved issues preventing the successful display of a "Hello Holberton" page.
+
+6. **Miscellaneous Issues:**
+   - Addressed errors related to Apache service start-up, including "apache.service not found" and Apache not starting due to port conflicts.
+   - Investigated and resolved issues related to Nginx configuration causing "duplicate location" errors.
+
+7. **File Transfer with SCP:**
+   - Provided guidance on using `scp` to securely copy files between machines.
+
+**link to notes:** [Web Server](https://github.com/hunterxcobby/system-devops_learning/tree/main/shell_scripting/0x0C-web_server)
+
+
+
+## Day 88: January 25, 2024
+
+**Today's Progress**: Python Network
+
+
+1. **URL and URI**: Discussed the concepts of Uniform Resource Locator (URL) and Uniform Resource Identifier (URI), including their syntax and components.
+
+2. **"POST" Request Method**: Explored the POST request method in HTTP, its syntax, usage for submitting form data, and differences from the GET method.
+
+3. **File Upload using multipart/form-data POST Request**: Covered file uploads in HTTP using the multipart/form-data POST request, including examples and relevant MIME types.
+
+4. **"CONNECT" Request Method**: Introduced the CONNECT request method in HTTP for establishing proxy connections.
+
+5. **Content Negotiation**: Explained content negotiation in HTTP, including Content-Type negotiation, language negotiation, and encoding negotiation.
+
+6. **Persistent (or Keep-alive) Connections**: Discussed persistent connections in HTTP, their benefits, and relevant Apache server configuration directives.
+
+7. **Range Download**: Briefly touched on the Accept-Ranges and Transfer-Encoding headers for range downloads in HTTP.
+
+8. **Cache Control**: Covered cache control in HTTP, including the Cache-Control and Pragma headers for controlling caching behavior.
+
+9. **HTTP Cookies**: Introduced HTTP cookies, including their purpose, Set-Cookie and Cookie headers, and examples in various server-side applications like PHP, Node.js, Python, and Ruby on Rails.
+
+10. **Lifetime of a Cookie**: Discussed the lifetime of cookies, including permanent cookies and session cookies, along with examples.
+
+11. **Restrict Access to Cookies**: Explored methods to restrict access to cookies using the Secure and HttpOnly attributes, with examples.
+
+12. **Where Cookies are Sent**: Defined the scope of cookies using the Domain and Path attributes, with examples.
+
+
+**link to notes:** [Python Network](https://github.com/hunterxcobby/Python-Projects/tree/main/lessons/exercises/23-python-network_0/0-HTTP)
+
+
+
+## Day 89: January 26, 2024
+
+**Today's Progress**: Python Network 
+
+1. **Introduction to urllib.request**: Explored the `urllib.request` module, which provides a simple interface for fetching URLs.
+
+2. **Fetching URLs**: Discussed the `urlopen` function for fetching URLs and storing responses in temporary locations using `shutil.copyfileobj` and `tempfile.NamedTemporaryFile`.
+
+3. **Understanding HTTP requests and responses**: Explored HTTP requests and responses, mirroring them with `Request` and `Response` objects.
+
+4. **Data Handling**: Covered sending data to URLs using POST requests and encoding data using `urlencode` from `urllib.parse`.
+
+5. **Headers**: Explored adding headers to HTTP requests to mimic browser behavior using the `headers` argument in `urllib.request.Request`.
+
+6. **Handling Exceptions**: Discussed error handling with `URLError` and `HTTPError` exceptions, and how to handle them using `try-except` blocks.
+
+7. **Error Codes**: Reviewed HTTP error codes and their meanings, along with how to handle them in Python.
+
+8. **Wrapping it Up**: Summarized approaches to handle `URLError` and `HTTPError` exceptions.
+
+9. **info and geturl**: Learned about the `info` and `geturl` methods of response objects, providing information about the fetched page and the actual URL.
+
+10. **Openers and Handlers**: Explored customizing URL openers and handlers for handling specific situations like proxies, authentication, and redirects.
+
+11. **Basic Authentication**: Covered handling basic authentication using `HTTPBasicAuthHandler` and password managers.
+
+12. **Proxies**: Discussed working with proxies and disabling proxy detection using `ProxyHandler`.
+
+13. **Sockets and Layers**: Explored the layered architecture of Python's web resource fetching process, including setting socket timeouts.
+
+**link to notes:** [Python Network](https://github.com/hunterxcobby/Python-Projects/tree/main/lessons/exercises/24-python-network_1/0-URLlib)
+
+
+## Day 90: January 27, 2024
+
+**Today's Progress**: List Challenge on HackerRank, Python
+
+1. **Read Input:**
+   - Read the number of commands `n` from input.
+   
+2. **Initialize List:**
+   - Initialize an empty list `lst`.
+
+3. **Parse Commands:**
+   - Loop `n` times to read and parse each command.
+   - Split each command into words using the `split()` method.
+   - The first word of each command indicates the operation to perform.
+
+4. **Perform Operations:**
+   - For each command, determine the operation to perform based on the first word.
+   - Use conditional statements (`if`, `elif`, `else`) to handle different types of operations:
+     - If the operation is 'insert', use `insert()` method to insert the specified element at the specified index.
+     - If the operation is 'print', use `print()` method to print the current state of the list.
+     - If the operation is 'remove', use `remove()` method to remove the specified element from the list.
+     - If the operation is 'append', use `append()` method to append the specified element to the end of the list.
+     - If the operation is 'sort', use `sort()` method to sort the list.
+     - If the operation is 'pop', use `pop()` method to remove and return the last element of the list.
+     - If the operation is 'reverse', use `reverse()` method to reverse the elements of the list.
+
+5. **Handle Errors:**
+   - Use `try-except` blocks to handle errors that may occur during list operations.
+   - For example, handle `ValueError` when converting input arguments to integers.
+   - Print error messages or handle errors gracefully as needed.
+
+6. **Output:**
+   - After processing all commands, the final state of the list should be printed as the output.
+
+7. **Test and Debug:**
+   - Test the program with sample inputs and edge cases to ensure correctness.
+   - Debug any issues or errors encountered during testing.
+
+8. **Optimization (Optional):**
+   - Review the code for potential optimizations or improvements in terms of readability, efficiency, or functionality.
+
+**link to solution:** [Lists](https://github.com/hunterxcobby/Python-Challenges/tree/main/01-HackerRank/16-Lists)
+
