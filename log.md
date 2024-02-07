@@ -672,3 +672,215 @@ These tasks involved code review, SQL script creation, and Python class updates 
 
 **link to project:** [AirBnB_v2](https://github.com/hunterxcobby/AirBnB_clone_v2)
 
+
+
+## Day 81: January 18, 2024
+
+**Today's Progress**: SQLAlchemy Python && SQL
+
+1. **Syntax Warning Fixes:**
+   - Identified and addressed syntax warnings in the `console.py` file, replacing `is` with `==` where appropriate.
+
+2. **Error Handling in tearDown Method:**
+   - Updated the `tearDown` method in the test files (`test_base_model.py`) to include specific exception handling instead of using a bare `except` statement.
+
+3. **BaseModel Class Modification:**
+   - Modified the `BaseModel` class to properly handle the conversion of `created_at` and `updated_at` attributes from string to datetime objects.
+
+4. **Code Review and Suggestions:**
+   - Reviewed your `console.py` code, provided comments, and suggested improvements.
+   
+5. **Bug Fix in `do_create` Method:**
+   - Addressed a bug in the `do_create` method of `console.py` by ensuring proper handling of parameters and their evaluation.
+
+6. **Additional Code Comments:**
+   - Added comments to the modified code sections to provide clarity on the changes made.
+
+7. **Review and Suggestions on Overall Progress:**
+   - Discussed errors encountered, potential improvements, and provided guidance on debugging and refining the code.
+
+8. **Ongoing Support and Clarifications:**
+   - Addressed various specific issues and errors reported by you, offering guidance and assistance.
+  
+  **link to project:** [AirBnB_v2](https://github.com/hunterxcobby/AirBnB_clone_v2)
+
+
+  
+## Day 82: January 19, 2024
+
+**Today's Progress**: Configuration Management , Puppet
+
+
+1. **Configuration Management and Automation:**
+   - learned the concept of configuration management in the context of server infrastructure.
+   - Discussed the role of automation in server configuration management.
+   - Introduced popular configuration management tools: Puppet, Ansible, Chef, and Salt.
+
+2. **Benefits of Configuration Management for Servers:**
+   - Discussed the benefits, including quick provisioning, recovery, avoiding snowflake servers, version control, and replicated environments.
+
+3. **Overview of Configuration Management Tools:**
+   - Discussed common features shared by configuration management tools.
+   - Introduced features like Automation Framework, Idempotent Behavior, System Facts, Templating System, and Extensibility.
+
+4. **Choosing a Configuration Management Tool:**
+   - Considered factors like infrastructure complexity, learning curve, cost, advanced tooling, and community support when choosing a tool.
+   - Provided an overview of Ansible, Puppet, and Chef.
+
+5. **Overview of Popular Tools:**
+   - Presented a quick comparison of Ansible, Puppet, and Chef, including their script language, infrastructure model, and terminology.
+
+6. **Puppet Documentation Exploration:**
+   - Started exploring Puppet documentation.
+
+7. **Step-by-Step Puppet Tutorial:**
+   - Guided through the initial steps of creating a Puppet project.
+   - Demonstrated writing a simple manifest to install a package.
+
+8. **Puppet Project: Creating a File:**
+   - Created a step-by-step project to use Puppet to create a file with specific permissions, owner, group, and content.
+
+9. **Puppet Project: Installing Flask:**
+    - Created a Puppet manifest to install Flask from pip3 with a specific version.
+
+10. **Progress Tracking:**
+    - Regularly checked for understanding and provided explanations for each step.
+    - Responded to user queries and adjusted the pace based on the user's feedback.
+
+ **link to notes:** [Configuration Management](https://github.com/hunterxcobby/system-devops_learning/tree/main/shell_scripting/0x0A-configuration_management)
+
+
+## Day 83: January 20, 2024
+
+**Today's Progress**: String Capitalization , Python
+ 
+### Challenge: Capitalize Names
+
+1. **Understand the Problem:**
+   - The task is to capitalize the first letter of each word in a given full name.
+   - The input is a string containing the full name.
+
+2. **Input Format:**
+   - A single line of input containing the full name.
+
+3. **Output Format:**
+   - Print the capitalized string.
+
+4. **Approach:**
+   - Split the full name into individual words.
+   - Capitalize the first letter of each word.
+   - Join the capitalized words back into a string.
+
+5. **Pseudocode:**
+   ```python
+   def capitalize_name(name):
+       # Split the name into words
+       words = name.split()
+
+       # Capitalize the first letter of each word
+       capitalized_words = [word.capitalize() for word in words]
+
+       # Join the capitalized words back into a string
+       capitalized_name = ' '.join(capitalized_words)
+
+       return capitalized_name
+
+   # Sample Input
+   full_name = "chris alan"
+
+   # Output the capitalized name
+   result = capitalize_name(full_name)
+   print(result)
+   ```
+
+6. **Sample Input and Output:**
+   - Sample Input: "chris alan"
+   - Expected Output: "Chris Alan"
+
+7. **Test the Function:**
+   - Test the function with various inputs, including edge cases.
+
+8. **Optimization:**
+   - The provided solution is concise and covers the requirements.
+   - No additional optimization is needed for this simple task.
+
+9. **Documentation:**
+   - Add comments or docstrings to explain the code.
+
+10. **Finalization:**
+    - Ensure the code is readable, well-documented, and provides the correct output.
+
+**link to implementation:** [String Capitalization](https://github.com/hunterxcobby/Python-Challenges/tree/main/01-HackerRank/15-cAPITALIZE)
+
+
+## Day 84: January 21, 2024
+
+**Today's Progress**: SSH (Secure Shell)
+
+- learned; 
+
+1. the concept of SSH (Secure Shell) as a secure protocol for connecting to Linux servers remotely.
+
+2. how SSH works, emphasizing the client-server model and the use of SSH keys for authentication.
+
+3. the process of generating SSH key pairs on a local machine, including considerations for key length.
+
+4. the use of an SSH agent to avoid typing the passphrase repeatedly and forwarding SSH credentials for server-to-server authentication.
+
+5. changing the default port that the SSH daemon runs on to enhance security.
+
+6. methods of limiting users who can connect through SSH using directives like AllowUsers and AllowGroups.
+
+7. disabling root login through SSH and encouraged the use of a dedicated user account with sudo privileges.
+
+8. scenario where root access is allowed for specific commands, achieved by modifying the root user's authorized_keys file.
+
+9. removing the passphrase from an RSA key.
+
+10. connecting to a server using a private key, emphasizing the use of the `ssh` command with the `-i` option.
+
+**link to notes:** [Secure Shell](https://github.com/hunterxcobby/system-devops_learning/tree/main/shell_scripting/0x0B-ssh/SSH-Essentials)
+
+
+## Day 85: January 22, 2024
+
+**Today's Progress**: Web Servers, HTTP Requests, Nginx
+
+1. **Setting Up Nginx Server Blocks:**
+   - Created directory structure for multiple sites in `/var/www`.
+   - Set ownership and permissions for web directories.
+   - Created sample pages for each site.
+
+2. **Configuring Nginx Server Blocks:**
+   - Created server block files for each domain in `/etc/nginx/sites-available`.
+   - Edited server block files to define root directories, server names, and basic configurations.
+   - Enabled server blocks by creating symbolic links in `/etc/nginx/sites-enabled`.
+
+3. **Server Configuration and Restart:**
+   - Adjusted `server_names_hash_bucket_size` in `/etc/nginx/nginx.conf` to avoid hash bucket memory issues.
+   - Tested Nginx configuration with `sudo nginx -t`.
+   - Restarted Nginx to apply changes with `sudo systemctl restart nginx`.
+
+4. **Local Hosts File Modification (Optional):**
+   - Modified the local computer's hosts file for testing purposes by mapping domain names to the server's IP address.
+
+5. **Introduction to Web Servers and Domain Names:**
+   - Discussed the importance of having a domain name for a professional appearance and trust.
+   - learned the concepts of internet domain, domain name, root domain, and subdomain.
+   - discovered the need to buy a domain name from registrars and configure DNS records.
+
+6. **HTTP Methods Overview:**
+   - learned common HTTP methods: GET, HEAD, POST, PUT, DELETE, CONNECT, OPTIONS, TRACE.
+   - Provided explanations and real-world analogies for each HTTP method.
+
+7. **Detailed Exploration of HTTP Methods:**
+   - learned the details of GET, HEAD, POST, PUT, DELETE, CONNECT, OPTIONS, TRACE methods.
+   - Provided examples of HTTP requests and server responses for each method.
+
+8. **Current Discussion: TRACE Method:**
+   - learned the TRACE method, highlighting its purpose of echoing back HTTP requests for debugging.
+   - read examples of TRACE requests and server responses.
+
+
+**link to notes:** [Web Server](https://github.com/hunterxcobby/system-devops_learning/tree/main/shell_scripting/0x0C-web_server)
+
