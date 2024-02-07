@@ -1188,7 +1188,6 @@ These tasks involved code review, SQL script creation, and Python class updates 
 **link to task:** [Number Guessing Game](https://github.com/hunterxcobby/CWC-Learning/tree/main/c_programming/number_guessing-game)
 
 
-
 ## Day 95: February 01, 2024
 
 **Today's Progress**: AirBnB_clone-Deploy_static
@@ -1226,3 +1225,62 @@ These tasks involved code review, SQL script creation, and Python class updates 
   
   
 **link to notes:** [AirBnB_clone-Deploy_static](https://github.com/hunterxcobby/system-devops_learning/tree/main/shell_scripting/0x03.AirBnB_clone-Deploy_static)
+
+
+
+## Day 96: February 02, 2024
+
+**Today's Progress**: HTTPS, SSL
+
+1. **Understanding HTTPS and SSL:**
+   - Explained the concepts of HTTPS and SSL in simple terms using real-life analogies.
+   - Discussed the purpose and benefits of SSL certificates, including encryption, authentication, trust, and PCI compliance.
+   - Explored the disadvantages of SSL, such as cost and performance considerations.
+
+2. **Deployment Tasks:**
+   - configuring domain zones and subdomains for load balancing using Bash scripting.
+   - Created SSL certificates using Certbot and configured HAproxy to accept encrypted traffic.
+   - Troubleshooted errors related to Apache configuration and port usage conflicts.
+
+3. **Programming Concepts:**
+   - Discussed the Feynman learning technique and applied it to explain programming concepts in step-by-step and analogy-based approaches.
+   - Clarified concepts related to round-robin DNS, HTTP, and HTTPS.
+
+4. **Hands-on Practice:**
+   - Engaged in practical exercises to apply theoretical knowledge, such as configuring domain zones, generating SSL certificates, and troubleshooting deployment issues.
+   - Provided guidance on using commands, editing configuration files, and resolving errors in a Linux environment.
+
+
+**link to notes:** [HTTPS & SSL](https://github.com/hunterxcobby/system-devops_learning/tree/main/shell_scripting/0x10-HTTPS_SSL)
+
+
+
+## Day 97: February 03, 2024
+
+**Today's Progress**: HTTPS, SSL / SSL termination
+
+1. **Initial Setup and Certificate Generation:**
+   - Explored the process of setting up Certbot for certificate generation.
+   - Generated SSL/TLS certificates for the domain "www.hunterxcobby.tech" using Certbot.
+
+2. **HAProxy Configuration for SSL/TLS Termination:**
+   - Reviewed the HAProxy configuration for SSL/TLS termination.
+   - Updated the HAProxy configuration file (`haproxy.cfg`) to include SSL/TLS termination.
+   - Explored options for binding SSL certificate files (`fullchain.pem` and `privkey.pem`) to the HAProxy configuration.
+   - Modified the HAProxy configuration to bind the SSL certificate and private key files.
+
+3. **Troubleshooting and Error Handling:**
+   - Addressed errors encountered during HAProxy configuration, such as incorrect file paths and SSL certificate loading issues.
+   - Provided guidance on locating SSL certificate files and understanding their contents.
+
+4. **Final Configuration:**
+   - Updated the HAProxy configuration to correctly bind the SSL certificate (`fullchain.pem`) and private key (`privkey.pem`).
+   - Ensured that the HAProxy configuration is correctly set up for SSL/TLS termination on port 443.
+
+5. **Summary and Next Steps:**
+   - Reviewed the steps taken to configure HAProxy for SSL/TLS termination.
+   - Provided guidance on next steps for managing SSL/TLS certificates and renewals using Certbot.
+
+**link to project:** [HTTPS & SSL task](https://github.com/hunterxcobby/alx-system_engineering-devops/tree/master/0x10-https_ssl)
+
+
