@@ -522,3 +522,153 @@ Throughout the session, we focused on practical implementations, explanations ta
 
 **link to notes:** [SQL Alchemy](https://github.com/hunterxcobby/DBMS_learning/tree/main/sql_alchemy)
 
+
+
+## Day 76: January 13, 2024
+
+**Today's Progress**: Introduction to django
+
+
+1. Web Frameworks
+2. MVT - (Model, Views, Template)
+3. Virtual environments
+4. Projects Vs Apps
+5. HTTP response cycle
+
+   
+**link to notes:** [Django](https://github.com/hunterxcobby/WEB-DEV_learning/tree/main/django)
+
+
+
+## Day 77: January 14, 2024
+
+**Today's Progress**: Object Relational Mappers
+
+1. Discussed various Python ORM implementations, including SQLAlchemy, Peewee, Django's ORM, Pony ORM, and SQLObject.
+
+2. Highlighted key characteristics of SQLAlchemy, such as its balanced abstraction level and effectiveness in handling complex queries.
+
+3. Introduced Peewee ORM, emphasizing its design philosophy of being "simpler, smaller, and more hackable" compared to SQLAlchemy.
+
+4. Covered Django's ORM, a built-in module in the Django web framework, suitable for simple to medium-complexity database operations. Noted criticisms about its complexity for certain queries.
+
+5. Introduced Pony ORM, an open-source Python ORM released under the Apache 2.0 license, providing an alternative for developers.
+
+6. Mentioned SQLObject as a long-standing ORM with over 14 years of active open-source development, showcasing its stability and reliability.
+
+7. Included Tortoise ORM as an open-source ORM implementation for Python, broadening the options available to developers.
+
+
+**link to notes:** [ORM](https://github.com/hunterxcobby/Python-Projects/tree/main/lessons/exercises/21-object_relational_mappers)
+
+
+
+## Day 78: January 15, 2024
+
+**Today's Progress**: Python MySQL
+
+1. **SQLAlchemy Overview:**
+   - Discussed the importance and benefits of using Object-Relational Mappers (ORMs).
+   - learned various Python ORM implementations, including SQLAlchemy, Peewee, Django ORM, PonyORM, and SQLObject.
+
+2. **Introduction to MySQL in Python:**
+   - Introduced MySQL Python, the MySQL driver for Python, including the _mysql wrapper library and the DB-API 2.0 module MySQLdb.
+   - Covered the installation process of MySQLdb.
+
+3. **Connecting to a MySQL Database:**
+   - Demonstrated how to establish a connection to a MySQL database using the MySQLdb module.
+
+4. **Getting a Cursor in MySQL Python:**
+   - Explained the concept of a cursor and demonstrated how to create a cursor object.
+
+5. **Executing MySQL Queries in Python:**
+   - Illustrated the execution of various MySQL queries using the cursor's execute function.
+
+6. **Obtaining Query Results:**
+   - Explained methods for fetching query results, including fetching all-at-once and fetching one-at-a-time.
+
+7. **Exceptions & Errors:**
+   - Discussed error handling using try-except blocks and demonstrated handling MySQL errors.
+
+8. **Clean Up:**
+   - Covered the importance of closing cursors and database connections for proper cleanup.
+
+9. **Parameterized Queries:**
+   - Introduced the concept of parameterized queries to prevent SQL injection.
+   - Showcased examples of creating and executing parameterized queries.
+
+10. **Using Python Virtual Environment:**
+    - Addressed the need for a Python virtual environment and discussed when and why to use one.
+
+11. **Installing SQLAlchemy:**
+    - Briefly explained the process of installing the SQLAlchemy library.
+
+12. **Miscellaneous Questions:**
+    - Tackled additional questions, including the purpose of the `freeze` command, filtering options in MySQLdb, printing from a table, and using format to create SQL queries.
+
+**link to notes:** [Python MySQL](https://github.com/hunterxcobby/Python-Projects/tree/main/lessons/exercises/22-Python_MYSQL)
+
+
+
+## Day 79: January 16, 2024
+
+**Today's Progress**: SQLAlchemy Python && SQL
+
+1. **Mapping and Declaring Classes:**
+   - learned the process of declaring classes in SQLAlchemy using the Declarative system.
+   - Created a base class and mapped a simple User class to a database table.
+
+2. **Creating a Schema:**
+   - Discussed the creation of a schema, including the use of the Declarative system, Table objects, and MetaData.
+   - Demonstrated the process of creating tables and specifying column details.
+
+3. **Creating an Instance of the Mapped Class:**
+   - learned the process of creating instances of mapped classes.
+   - Demonstrated the use of the constructor (`__init__()` method) and how SQLAlchemy's instrumentation works.
+
+4. **Creating a Session:**
+   - learned the role of the Session as the ORM's handle to the database.
+   - Created a Session class and discussed its lifecycle patterns.
+   - learned how to instantiate and configure a Session.
+
+5. **Adding and Updating Objects:**
+   - Discussed persisting objects to the database using the Session.
+   - learned the process of adding and updating objects, including the use of `add()`, `add_all()`, and `commit()`.
+
+6. **Rolling Back:**
+   - learned the ability to roll back changes made within a transaction using `rollback()`.
+
+7. **Querying:**
+   - Introduced Query objects and demonstrated basic querying using `query()` and various filtering techniques.
+   - Covered the generative nature of Query objects and their use in LIMIT, OFFSET, and ordering.
+
+8. **Common Filter Operators:**
+   - learned common filter operators such as `==`, `!=`, `like`, `ilike`, `in_`, `notin_`, `is_`, `isnot`, `and_`, `or_`, and `match`.
+
+
+**link to notes:** [Python && SQL](https://github.com/hunterxcobby/DBMS_learning)
+
+
+## Day 80: January 17, 2024
+
+**Today's Progress**: SQLAlchemy Python && SQL
+
+1. **Mock Peer Review for SQL Alchemy Code:**
+   - SQL Alchemy code related to common filter operators, provided explanations, and discussed potential improvements.
+
+2. **Code Review for Console Script:**
+   - Fixed code for the (`console.py`) related to parsing command-line arguments, addressing syntax warnings, and ensuring proper functionality.
+
+3. **Database Setup Scripts:**
+   - Created SQL scripts (`setup_mysql_dev.sql` and `setup_mysql_test.sql`) to set up MySQL databases, users, and privileges for a project.
+
+4. **File Storage Update:**
+   - updated the `FileStorage` class in Python related to adding a `delete` method and modifying the `all` method.
+
+5. **User Class Update:**
+   - Updated the `User` class in Python, inheriting from `BaseModel` and `Base`, and added or replaced class attributes as per the provided requirements.
+
+These tasks involved code review, SQL script creation, and Python class updates to enhance functionality and align with project specifications.
+
+**link to project:** [AirBnB_v2](https://github.com/hunterxcobby/AirBnB_clone_v2)
+
