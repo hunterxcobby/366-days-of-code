@@ -145,3 +145,155 @@
     - Planned for periodic architecture reviews and updates.
 
 **link to solution:** [Web Infrastructure Design](https://github.com/hunterxcobby/alx-system_engineering-devops/tree/master/0x09-web_infrastructure_design)
+
+
+
+## Day 67: January 04, 2024
+
+**Today's Progress**: Binary Tree, Create, INser @ left && right, Delete - C lang
+
+
+1. Reviewed and Improved Code:
+   - Reviewed and improved C code for inserting a node as the left child in a binary tree.
+   - Implemented comments using analogies to explain the logic of the code.
+   - Adjusted the formatting style.
+
+2. Code Refinement:
+   - Modified the commenting style .
+   - Improved comments using analogies for inserting a node as the right child in a binary tree.
+
+3. Code Development:
+   - Created a function to display a binary tree in a formatted way.
+   - Developed a function to free the memory allocated for a binary tree.
+
+4. Gitignore File:
+   - created a Gitignore file pattern to ignore executable and object files in C programs.
+
+5. User Guidance:
+   - Explained the logic behind inserting a node as the left and right child in a binary tree to my imaginary students.
+   - Clarified the confusion regarding the analogy and code alignment.
+
+6. Bug Fixing:
+   - Detected and corrected potential issues in the binary_tree_insert_right function.
+
+7. New Function:
+   - Implemented a function (`binary_tree_delete`) to delete an entire binary tree.
+   - Developed a function (`binary_tree_is_leaf`) to check if a node is a leaf.
+   - Created a function (`binary_tree_is_root`) to check if a given node is a root.
+
+
+**link to notes:** [Binary Tree](https://github.com/hunterxcobby/DSA/tree/main/0x1D-Binary_trees)
+
+
+## Day 68: January 05, 2024
+
+**Today's Progress**: Binary Tree, Preorder, Inorder, Postorder Traversal, Full, Complete, Perct Tree - C lang
+
+1. **Code Review and Refinement:**
+   - Reviewed and refined the code for checking if a binary tree is full (`binary_tree_is_full`).
+   - Made adjustments to adhere to coding standards, focusing on comment clarity and variable naming.
+
+2. **New Function Implementation:**
+   - Implemented a function to check if a binary tree is perfect (`binary_tree_is_perfect`).
+   - Ensured that the function returns 1 if the tree is perfect and 0 otherwise, following the specified prototype.
+
+3. **Binary Tree Concepts:**
+   - learned and learned concepts related to binary trees, including fullness and perfection.
+   - Implemented functions to evaluate these properties, deepening understanding of binary tree structures.
+
+4. **Coding Style Compliance:**
+   - Ensured that the code aligns with the specified coding style, emphasizing proper indentation, commenting, and function prototypes.
+
+5. **Code Optimization:**
+   - Received suggestions for optimizing code, particularly in terms of using more descriptive variable names for enhanced clarity.
+
+6. **Continuous Learning:**
+   - Engaged in continuous learning by exploring and implementing new functions, contributing to personal and academic growth in software engineering.
+  
+**link to implementation:** [Binary Tree](https://github.com/hunterxcobby/DSA/tree/main/0x1D-Binary_trees)
+
+
+## Day 69: January 06, 2024
+
+**Today's Progress**: AirBnB revision - CRUD, Cmd Module , Python 
+
+1. **Overview:**
+   - learned and clarified the user's request for assistance with a CRUD application using the `cmd` module in Python.
+   - Developed a simple command-line application for managing users with Create, Read, Update, and Delete (CRUD) functionalities.
+
+2. **Code Implementation:**
+   - Created a class named `UserManagement` inheriting from `cmd.Cmd`.
+   - Implemented CRUD methods (`do_create`, `do_read`, `do_update`, `do_destroy`) to interact with a dictionary storing user data.
+   - Used the `cmd` module to facilitate command-line interactions.
+
+3. **Command Breakdown:**
+   - `do_create`: Creates a new user and adds them to the user dictionary.
+   - `do_read`: Displays a list of all users in the dictionary.
+   - `do_update`: Updates the name of an existing user based on their ID.
+   - `do_destroy`: Deletes a user based on their ID.
+
+4. **Initialization and User Feedback:**
+   - Implemented an `__init__` method to initialize the user dictionary and superclass.
+   - Provided user feedback for each CRUD operation to enhance user interaction.
+
+5. **Code Explanation:**
+   - Clarified various lines of code, including class initialization, method signatures, and input parsing.
+   - Broke down the functionality of each CRUD method, explaining input validation, dictionary manipulation, and user feedback.
+
+6. **Review and Testing:**
+   - Encouraged the user to run the script and test each command for a practical understanding.
+   - discovered the importance of the `cmdloop` method for maintaining the command-line interface.
+
+7. **Documentation:**
+   - Documented the code with inline comments to enhance readability and understanding.
+   - Answered additional questions and provided detailed explanations as per the user's request.
+
+8. **Future Steps:**
+   - User can further customize or extend the application based on specific needs.
+   - Suggested exploring additional features, error handling, or user interface enhancements.
+   - Remained open to any further questions or requests from the user.
+
+Overall, the session focused on creating a functional and educational CRUD application using Python's `cmd` module, tailored to the user's specifications.
+
+**link to implementation:** [AirBnBV2](https://github.com/hunterxcobby/Airbnb_CloneV2)
+
+
+
+## Day 70: January 07, 2024
+
+**Today's Progress**: AirBnB revision - uuid module, datetime module, json as file storage type , Python 
+
+1. **Objective:**
+   - Integrated JSON serialization and deserialization into the `UserManagement` class.
+   - Learned the `uuid` module for generating unique IDs and utilized the `datetime` module for timestamps.
+
+2. **Code Enhancements:**
+   - Updated the `do_create` method to use `uuid` for generating unique IDs.
+   - Incorporated `datetime` for tracking created at and updated at timestamps in the user data dictionary.
+
+3. **File Handling:**
+   - Implemented `save_to_file` and `load_from_file` methods for persisting user data to and loading from a JSON file.
+   - Ensured that the user data is saved to the file after creating, updating, or deleting a user.
+
+4. **User Interaction:**
+   - Modified the `do_read`, `do_update`, and `do_destroy` methods to accommodate the enhanced user data structure.
+   - Displayed user details, including unique IDs and timestamps, during listing, updating, and deleting operations.
+
+5. **Documentation:**
+   - Updated inline comments to reflect changes in the code and to provide clarity on new features.
+   - Maintained adherence to modular design principles for better code organization.
+
+6. **Testing:**
+   - Encouraged running the script and testing CRUD operations to ensure proper functionality.
+   - Verified that user data is correctly serialized to and deserialized from the JSON file.
+
+7. **Future Improvements:**
+   - learned potential areas for further improvement, such as error handling and additional user features.
+   - Remained open to future enhancements and suggestions for refining the user management system.
+
+8. **Conclusion:**
+   - Successfully enhanced the `UserManagement` class to include unique IDs and timestamps, improving data integrity and tracking capabilities.
+   - The class now offers a more robust and modular solution for managing user data through a command-line interface.
+
+**link to implementation:** [AirBnBV2](https://github.com/hunterxcobby/Airbnb_CloneV2)
+
