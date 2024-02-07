@@ -1371,32 +1371,25 @@ These tasks involved code review, SQL script creation, and Python class updates 
 
 **Today's Progress**:  Introduction to HTML
 
-Sure, here's a progress log of our activities today:
+1. ** HTML Code Crectionor**:
+   - correcting HTML code by identifying errors.
 
-1. **Assisted with HTML Code Correction**:
-   - Provided assistance in correcting HTML code by identifying and explaining errors.
-
-2. **Explained HTML Concepts**:
-   - Clarified the concept of the `<figure>` element and its usage in HTML.
-   - Explained the purpose and usage of the `alt` attribute in HTML images.
-   - Provided an explanation of HTML elements and attributes, highlighting their differences.
+2. **Learned HTML Concepts**:
+   - the `<figure>` element and its usage in HTML.
+   - the purpose and usage of the `alt` attribute in HTML images.
+   - HTML elements and attributes, highlighting their differences.
 
 3. **HTML Form Implementation**:
-   - Guided through the addition of an `action` attribute to a `<form>` element in HTML.
-   - Explained the significance of the `action` attribute in specifying the destination of form data.
+   - addition of an `action` attribute to a `<form>` element in HTML.
+   - the significance of the `action` attribute in specifying the destination of form data.
 
-4. **Explanation of Input Elements**:
-   - Explained the purpose and usage of the `<input>` element in HTML forms.
-   - Provided guidance on nesting an `<input>` element within a `<form>` element.
+4. **Input Elements**:
+   - the purpose and usage of the `<input>` element in HTML forms.
+   - nesting an `<input>` element within a `<form>` element.
 
 5. **Name Attribute in HTML**:
-   - Explained the purpose and usage of the `name` attribute in HTML input elements.
-   - Clarified the role of the `name` attribute in uniquely identifying input fields within a form.
-
-6. **Discussion on HTML vs. Programming Languages**:
-   - Confirmed the understanding that HTML is not considered a programming language but rather a markup language.
-
-Overall, today's activities focused on HTML concepts, including elements, attributes, forms, and their practical implementation.
+   - the purpose and usage of the `name` attribute in HTML input elements.
+   - the role of the `name` attribute in uniquely identifying input fields within a form.
 
 
-**link to TASK:**[Introduction to HTML]()
+**link to TASK:**[Introduction to HTML](https://github.com/hunterxcobby/100-days-FreeCodeCamp/blob/main/projects/catphoto.html)
