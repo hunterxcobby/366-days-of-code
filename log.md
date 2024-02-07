@@ -1284,3 +1284,84 @@ These tasks involved code review, SQL script creation, and Python class updates 
 **link to project:** [HTTPS & SSL task](https://github.com/hunterxcobby/alx-system_engineering-devops/tree/master/0x10-https_ssl)
 
 
+## Day 98: February 04, 2024
+
+**Today's Progress**:  AirBnB clone - Deploy static
+
+1. **SSL Certificate Configuration**:
+   - We reviewed how to configure SSL certificates in HAProxy.
+   - Discussed different configurations for binding SSL certificates, including paths and file formats.
+
+2. **Troubleshooting SSL Errors**:
+   - Addressed various errors encountered during SSL certificate configuration in HAProxy.
+   - Analyzed error messages and suggested potential solutions.
+
+3. **Fabric Script for Deployment**:
+   - Discussed requirements for a Fabric script to deploy archives to web servers.
+   - Outlined steps for creating the `do_deploy` function according to the provided specifications.
+
+4. **Fabric Script Development**:
+   - Developed a pseudocode representation of the `do_deploy` function.
+   - Included steps to check archive existence, upload, uncompress, and manage symbolic links.
+
+5. **Testing and Verification**:
+   - Provided a command to test the Fabric script for deployment.
+   - Emphasized the importance of verifying the deployment's success after running the script.
+
+(**link to notes:** [AirBnB_clone-Deploy_static](https://github.com/hunterxcobby/AirBnB_clone_v2/)
+
+
+
+## Day 99: February 05, 2024
+
+**Today's Progress**:  Search Alogrithms
+
+1. **Space Complexity**:
+   - Discussed the concept of space complexity, distinguishing between auxiliary space and space complexity.
+   - Explained space complexity using real-life analogies and examples, such as moving into an apartment and sorting algorithms' space requirements.
+   - Reviewed example codes in C and Python to illustrate space complexity in recursive and non-recursive functions.
+
+2. **Search Algorithms**:
+   - Defined search algorithms as methods used to locate specific items within a collection of data.
+   - Explained linear search as a simple search algorithm that sequentially checks each element in a dataset until a match is found.
+   - Illustrated linear search with real-life analogies and provided example code in C.
+   - Introduced binary search as an efficient search algorithm for sorted datasets, dividing the search interval in half with each iteration.
+   - Discussed when to use linear search versus binary search based on the characteristics of the dataset and the efficiency requirements.
+   - Provided example code in C for binary search and explained its implementation.
+
+3. **Best Search Algorithms for Different Scenarios**:
+   - Analyzed various search algorithms (linear search, binary search, hash table, interpolation search, exponential search, jump search) based on their suitability for different scenarios.
+   - Discussed factors influencing the choice of the best search algorithm, including dataset size, sorting status, frequency of searches, and available resources.
+   - Highlighted the importance of understanding trade-offs between time complexity, space complexity, and implementation complexity when selecting the appropriate search algorithm.
+
+
+**link to notes:** [Search Algorithms](https://github.com/hunterxcobby/C-Projects/tree/master/lessons/solutions/0x1E-search_algorithms)
+
+
+
+## Day 100: February 06, 2024
+
+**Today's Progress**:  Django assignment && Importation Website
+
+1. **Set Up Django Project**:
+   - Discussed the task of setting up a Django project named "BlogAPI" and configuring necessary project settings.
+
+2. **Create Models**:
+   - Designed Django models for blog posts and comments, outlining their fields and purpose.
+
+3. **Create Serializer Classes**:
+   - Discussed the creation of serializer classes using Django REST Framework to serialize/deserialize data between Django models and JSON format for API endpoints.
+
+4. **Create Views**:
+   - Implemented views for endpoints such as retrieving a list of blog posts, retrieving a specific blog post by ID, adding a new blog post, editing an existing blog post, and deleting a blog post.
+
+5. **Define URL Patterns**:
+   - Outlined the process of mapping each view to a URL pattern in the Django project's URL configuration.
+
+6. **Test Endpoints**:
+   - Discussed testing endpoints using tools like Postman or curl to ensure they function as expected.
+
+7. **Resolve Import Error with rest_framework**:
+   - Provided steps to resolve import errors with `rest_framework`, including installing Django REST Framework, checking installed packages, ensuring correct Django settings, and rebuilding environment if using Docker.
+
+**link to TASK:** [Django assignment](https://github.com/hunterxcobby/WEB-DEV_learning/tree/main/django-2)
