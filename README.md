@@ -1,7 +1,8 @@
 # 366-days-of-code
 This is to keep my progress log of coding consistently for 336 days this year 2024
 
-
+|Day|Focus|Day|Focus|
+|:---:|:----:|:---:|:----:|
 |[Day 1](log.md#day-1-january-01-2024) **01/01/23**|Web Infrastructure design - HTTPS/HTTP, SPOF, Firewalls |[Day 2](log.md#day-2-january-02-2024) **02/01/24**|**Python**: Exceptions and Errrors |
 |[Day 3](log.md#day-3-january-03-2024) **03/01/24**|Web Infrastructure design - The project |[Day 67](log.md#day-67-january-04-2024) **04/01/24**| **C lang**: Binary Trees, Create, Insert at left & right, Display |
 [Day 68](log.md#day-68-january-05-2024) **05/01/24**| **C lang**: Postorder, Inorder, Preorder Traversal, Perfcet, Full , Complete |[Day 69](log.md#day-69-january-06-2024) **06/01/24**| **Python**: AirBnB revised - CRUD, cmd module |
