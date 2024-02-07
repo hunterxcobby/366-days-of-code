@@ -1055,3 +1055,84 @@ These tasks involved code review, SQL script creation, and Python class updates 
 
 **link to solution:** [Lists](https://github.com/hunterxcobby/Python-Challenges/tree/main/01-HackerRank/16-Lists)
 
+
+## Day 91: January 28, 2024
+
+**Today's Progress**:Django, Python
+
+- Created a django project
+- create blog and pages apps
+- routed their url to a simple html site
+
+**link to solution:** [Lists](https://github.com/hunterxcobby/WEB-DEV_learning/tree/main/django)
+
+
+## Day 92: January 29, 2024
+
+**Today's Progress**: Load Balancer, HAProxy
+
+1. **Introduction to HAProxy**:
+   - an overview of HAProxy as a TCP/HTTP Load Balancer and proxying solution used to distribute workload across multiple servers.
+
+2. **HAProxy Terminology**:
+   - important terms like Access Control List (ACL), backend, and frontend in relation to load balancing.
+
+3. **Types of Load Balancing**:
+   - Explored different types of load balancing, including no load balancing, layer 4 load balancing, and layer 7 load balancing, along with their respective configurations.
+
+4. **Load Balancing Algorithms**:
+   - commonly used load balancing algorithms in HAProxy, such as roundrobin, leastconn, and source, along with sticky sessions.
+
+5. **Health Check**:
+   - Covered HAProxy's health check mechanism to determine the availability of backend servers and how it ensures high availability.
+
+6. **High Availability Setup**:
+   - Explored the concept of high availability (HA) setups, which prevent single points of failure, especially in load balancer configurations.
+
+7. **HTTP Headers**:
+   - Defined HTTP headers, including request headers, response headers, general headers, and entity headers, and their roles in HTTP communication.
+
+8. **Troubleshooting Nginx and Apache**:
+   - diagnosing and resolving issues related to Nginx and Apache web servers, including port conflicts and configuration errors.
+
+9. **Configuring HAProxy**:
+   - configuring HAProxy on a server to distribute traffic to multiple backend servers using roundrobin algorithm.
+
+10. **SSH Connection Troubleshooting**:
+    - troubleshooting SSH connection issues, including checking for routing problems and specifying custom SSH port numbers.
+
+
+**link to notes:** [Load Balancers](https://github.com/hunterxcobby/system-devops_learning/tree/main/shell_scripting/0x0F-load_balancer)
+
+
+
+## Day 93: January 30, 2024
+
+**Today's Progress**: Python Network
+
+1. **Shell Scripting Tasks:**
+    - Successfully implemented Bash scripts to handle tasks involving cURL requests, including sending requests to specific URLs, managing responses, and addressing syntax errors.
+    - Identified and resolved issues related to script syntax, parameter passing, and error handling, ensuring the scripts executed as intended.
+
+2. **Python Scripting Tasks:**
+    - Completed Python scripting tasks, focusing on sending requests to URLs, processing responses, and utilizing libraries like `urllib` and `requests` for HTTP interactions.
+    - Developed Python scripts to interact with the GitHub API, retrieve commit information from repositories, and format the output according to task requirements.
+
+3. **Error Handling and Debugging:**
+    - Encountered errors such as HTTP status code errors and invalid JSON responses during scripting tasks, and implemented error handling mechanisms to manage these issues effectively.
+    - Debugged scripts to resolve errors and ensure they functioned correctly under different scenarios, improving overall robustness and reliability.
+
+4. **Code Optimization and Efficiency:**
+    - Optimized script code to enhance readability, efficiency, and adherence to task specifications, focusing on improving performance and reducing complexity.
+    - Implemented strategies to streamline code execution, enhance script performance, and maintain code quality throughout the development process.
+
+5. **Task Completion and Testing:**
+    - Successfully completed assigned tasks by writing scripts that met specified requirements and produced expected outputs, ensuring adherence to task instructions.
+    - Conducted thorough testing of scripts in designated sandboxes to validate functionality and correctness, making necessary adjustments to achieve desired results.
+
+6. **Documentation and Reporting:**
+    - Maintained detailed documentation of progress, solutions, and explanations for each task, ensuring clear understanding of concepts, code implementations, and troubleshooting steps.
+    - Documented insights gained from solving various scripting challenges, facilitating learning and knowledge retention for future reference.
+
+**link to :** [Python Network](https://github.com/hunterxcobby/alx-higher_level_programming)
+
