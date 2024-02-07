@@ -297,3 +297,228 @@ Overall, the session focused on creating a functional and educational CRUD appli
 
 **link to implementation:** [AirBnBV2](https://github.com/hunterxcobby/Airbnb_CloneV2)
 
+
+
+## Day 71: January 08, 2024
+
+**Today's Progress**: AirBnB revised with cohort 18- packages && modules, BaseModel, JSON  Serialization and Deserialization, CRUD
+
+1. **Understanding and Implementing cmd Module:**
+   - learned and implemented a simple command-line interface using the `cmd` module.
+   - Created a basic structure for a user management system with commands like create, read, update, destroy.
+
+2. **Integration of UUID and Time:**
+   - Integrated UUID for generating unique identifiers for users.
+   - Incorporated timestamps (created_at and updated_at) to track when users are created and updated.
+
+3. **Explained File Organization, Modules, and Packages:**
+   - learned the differences between modules and packages.
+   - learned file organization strategies for a project.
+
+4. **Explained Absolute and Relative Import Paths:**
+   - Clarified the difference between absolute and relative import paths in Python.
+
+5. **Implemented BaseModel and User Class:**
+   - Created a `BaseModel` class with common functionalities like `save`, `to_dict`, and `__str__`.
+   - Implemented a `User` class inheriting from `BaseModel` with attributes like email, password, etc.
+
+6. **Integration of JSON Serialization and Deserialization:**
+   - Integrated JSON serialization and deserialization to save and load instances.
+   - Implemented the `save` and `reload` methods to persist and restore instances from a JSON file.
+
+7. **Implemented CRUD Commands in cmd Interface:**
+   - Extended the cmd interface to handle CRUD (Create, Read, Update, Delete) operations.
+   - Implemented methods to create, read, update, and delete users using a simple console interface.
+
+8. **Testing and Verification:**
+   - learned and implemented how to test the functionality of the `create` method and others in the cmd interface.
+   - learned interactions and outputs to ensure proper functioning.
+
+9. **Understanding and Discussing Various Code Snippets:**
+   - Analyzed and explained code snippets related to datetime, JSON handling, and command-line interfaces.
+
+10. **Explained `to_dict` and `__str__` Methods:**
+    - learned the purpose and functionality of the `to_dict` and `__str__` methods in the `BaseModel` class.
+
+11. **Implemented Class for Handling Custom Commands:**
+    - Implemented a class (`HBNBCommand`) to handle custom commands like `show`, `all`, `destroy`, and `update` in the cmd interface.
+
+12. **Explanation of Specific Code Sections:**
+    - Explained specific code sections, such as the `reload` method and the dynamic creation of instances based on class names.
+
+13. **Introduction to Testing and Verification Strategies:**
+    - learned how to test and verify the correctness of implemented functionality, especially focusing on the `create` method.
+
+14. **Incorporated Global Dictionary for Storing Instances:**
+    - Used a global dictionary (`__objects`) to store instances, allowing easy access and manipulation in different methods.
+
+15. **Explanation of `__init__` and `do_create` Methods:**
+    - Explained the purpose of the `__init__` method in the `User` class and the `do_create` method in the cmd interface.
+
+Throughout the session, we focused on practical implementations, explanations tailored to a beginner's understanding, and testing strategies to ensure the correctness of the implemented features.
+
+**link to implementation:** [AirBnBV2](https://github.com/hunterxcobby/Airbnb_CloneV2)
+
+
+
+## Day 72: January 09, 2024
+
+**Today's Progress**: conditionals, data structure, functions, operators, variables, operators precedence
+
+1. **Short-Circuiting in JavaScript:**
+   - learned the concept of short-circuiting in JavaScript, understanding how certain operators like logical AND (`&&`), logical OR (`||`), nullish coalescing (`??`), and optional chaining (`?.`) evaluate expressions.
+
+2. **Table of Operators and Precedence:**
+   - Examined a table listing JavaScript operators from highest to lowest precedence, including notes on their associativity, individual operators, and usage examples.
+
+3. **Control Flow and Error Handling:**
+   - Covered basic control flow statements in JavaScript, particularly the block statement and its scoping effects. learned the use of `var`, `let`, and `const` for scoping.
+
+4. **Conditional Statements:**
+   - learned conditional statements in JavaScript, focusing on the `if...else` statement and its best practices. learned the importance of using block statements for better code structure.
+
+5. **Switch Statement:**
+   - learned the `switch` statement in JavaScript, explaining how it allows evaluating an expression and matching its value to various case labels. learned the use of `break` statements and provided an example.
+
+6. **User Input Handling:**
+   -  modifying code to handle user input by utilizing the `readline` module for a more interactive experience. Resolved issues related to using the `prompt` function and clarified the need for user input.
+
+7. **Exception Handling Statements:**
+   - Covered exception handling in JavaScript using the `throw` statement and `try...catch` statements. learned the use of the `finally` block and learned nesting `try...catch` statements.
+
+8. **Utilizing Error Objects:**
+   - Studied the utilization of `Error` objects for throwing and catching exceptions. Provided an example of creating and handling custom errors for more informative debugging.
+
+9. **Code Review:**
+   - Reviewed and refined code snippets for user input handling and exception handling, ensuring correct syntax and addressing issues related to the `prompt` function.
+
+
+**link to notes:** [Js learning](https://github.com/hunterxcobby/JS-Lessons/tree/main/basics)
+
+
+
+## Day 73: January 10, 2024
+
+**Today's Progress**: Functions, Objects, constructers 
+
+1. Clarified the concept of functions in programming, covering basic syntax, invocation, scope, and parameters.
+
+2. learned functions versus methods, emphasizing their roles and distinctions.
+
+3. learned the concept of objects in programming, explaining how they are a collection of related data and functionality.
+
+4. learned object literals, showcasing their structure and common patterns for creating and accessing properties and methods.
+
+5. Dived into more advanced object concepts, such as objects as object properties and bracket notation for property access.
+
+6. Covered setting object members, including updating values, creating new members, and dynamically setting member names.
+
+7. learned the significance of the "this" keyword in methods and how it refers to the current object.
+
+8. learned constructors as a way to create reusable object blueprints, making it more efficient to create multiple objects with shared properties and methods.
+
+9. discovered the ubiquity of objects in JavaScript, pointing out their use in built-in APIs and objects like String, Array, and Document.
+
+10. Applied the acquired knowledge to complete practical tasks involving objects and their properties, including creating band and cat objects with specific requirements.
+
+
+**link to notes:** [Js learning](https://github.com/hunterxcobby/JS-Lessons/tree/main/basics)
+
+
+## Day 74: January 11, 2024
+
+**Today's Progress**: Object, functions and scopes, operators, cmdlines, modules
+
+1. **JavaScript Basics:**
+   - learned the importance of JavaScript programming.
+   - Covered how to run a JavaScript script.
+   - learned the creation of variables and constants.
+   - learned the differences between `var`, `const`, and `let`.
+   - Covered various data types available in JavaScript.
+
+2. **Control Flow in JavaScript:**
+   - learned the use of `if` and `if...else` statements.
+   - Covered the use of comments and assigning values to variables.
+   - learned the use of `while` and `for` loops, as well as `break` and `continue` statements.
+
+3. **Functions and Scope:**
+   - learned what a function is and how to use functions in JavaScript.
+   - learned functions that do not use a return statement.
+   - learned the scope of variables in JavaScript.
+
+4. **Operators and Data Manipulation:**
+   - learned arithmetic operators and how to use them.
+   - learned how to manipulate dictionaries in JavaScript.
+
+5. **Modules and Importing Files:**
+   - learned how to import a file in JavaScript using ES modules.
+
+6. **Error Resolution:**
+   - Addressed and resolved issues related to package installation and script execution.
+
+7. **Command-Line Arguments:**
+   - learned scripts that handle command-line arguments using `process.argv`.
+   - Explained a script checking for the number and type of command-line arguments.
+
+8. **Additional Queries:**
+   - understanding and troubleshooting issues related to Node.js installation and script execution.
+
+9. **Next Steps:**
+   - Upcoming topics include more advanced JavaScript concepts, further exploration of ES modules, and addressing specific questions or topics of interest.
+
+**link to notes:** [Js learning](https://github.com/hunterxcobby/JS-Lessons/tree/main/basics)
+
+
+
+## Day 75: January 12, 2024
+
+**Today's Progress**: SQLAlchemy, declarative mapping, creating schema, instance of mapped classes, sessions.
+
+1. **SQL Joins:**
+   - learned different types of joins in SQL, including inner joins, outer joins (left and right), and cross joins.
+   - learned the concept of evaluation order in SQL joins, emphasizing the importance of understanding the sequence of joins in a query.
+   
+2. **Set Operations on Tables:**
+   - Covered set operations in SQL, highlighting that joins are not equivalent to unions and learned union and minus operations on tables.
+   - discovered the importance of having identical attributes in sets participating in set operations.
+
+3. **Introduction to SQLAlchemy:**
+   - Initiated the exploration of SQLAlchemy, focusing on the Object Relational Mapper (ORM).
+   - learned the ORM's method of associating Python classes with database tables and instances of those classes with rows in the tables.
+   - learned the SQLAlchemy version check and connecting to an SQLite in-memory database.
+
+4. **Declarative Mapping in SQLAlchemy:**
+   - learned how to declare a mapping between Python classes and database tables using the Declarative system in SQLAlchemy.
+   - Defined a base class using `declarative_base()` and created a class (`User`) mapped to a table (`users`).
+   - learned the importance of having a primary key in the mapped class.
+
+5. **Creating a Schema in SQLAlchemy:**
+   - Examined the process of creating a schema in SQLAlchemy, including the creation of table metadata and issuing CREATE TABLE statements using `MetaData.create_all()`.
+
+6. **Creating an Instance of the Mapped Class:**
+   - learned the instantiation of objects from a mapped class in SQLAlchemy, understanding the role of the `__init__` method.
+   - learned the default values for attributes and how SQLAlchemy instrumentation works.
+
+7. **Creating a Session in SQLAlchemy:**
+   - learned the concept of a Session in SQLAlchemy, which serves as a workspace for interacting with the database.
+   - learned the creation of a Session class and its association with an Engine.
+   - learned the lifecycle patterns of a Session and when to create a new Session.
+
+8. **Adding and Updating Objects in SQLAlchemy:**
+   - implemented how to add and update objects in SQLAlchemy, including using `Session.add()` and `Session.add_all()`.
+   - learned the concept of a flush and how SQLAlchemy manages the identity map.
+   - Showed how to commit changes to the database using `Session.commit()`.
+
+9. **Session Object States in SQLAlchemy:**
+   - learned the different object states in SQLAlchemy: transient, pending, and persistent.
+   - Highlighted the importance of understanding these states for effective interaction with the database.
+
+10. **Improving Object Representation:**
+    - Addressed the need to improve the representation of objects by enhancing the `__repr__` method in the `User` class.
+
+11. **Future Steps:**
+    - Considered the need for further exploration, including querying data, handling relationships between tables, and advanced topics in SQLAlchemy.
+
+
+**link to notes:** [SQL Alchemy](https://github.com/hunterxcobby/DBMS_learning/tree/main/sql_alchemy)
+
