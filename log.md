@@ -1416,4 +1416,4 @@ These tasks involved code review, SQL script creation, and Python class updates 
 6. **Browser Behavior**:
    - learned how self-closing `<meta>` elements in the `<head>` section of an HTML document can control browser behavior and specify character encoding, with an example of setting the `charset` attribute to UTF-8.
 
-
+**link to progress:**[Catapp challenge](https://github.com/hunterxcobby/100-days-FreeCodeCamp/tree/main/projects/Day_2)
