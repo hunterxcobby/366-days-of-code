@@ -1417,3 +1417,33 @@ These tasks involved code review, SQL script creation, and Python class updates 
    - learned how self-closing `<meta>` elements in the `<head>` section of an HTML document can control browser behavior and specify character encoding, with an example of setting the `charset` attribute to UTF-8.
 
 **link to progress:**[Catapp challenge](https://github.com/hunterxcobby/100-days-FreeCodeCamp/tree/main/projects/Day_2)
+
+
+## Day 39: February 08, 2024
+
+**Today's Progress**: Coffee Shop , Introduction to CSS
+
+1. **Introduction to CSS**:
+   - **CSS (Cascading Style Sheets)**: Introduced the purpose of CSS as a styling language used to control the presentation and layout of HTML documents.
+   - **Separation of Concerns**: Discussed the concept of separating content (HTML) from presentation (CSS) to enhance maintainability and flexibility in web development.
+
+2. **CSS Selectors and Properties**:
+   - **Selectors**: Explained how CSS selectors target HTML elements for styling, with examples such as element selectors, class selectors (e.g., `.class`), and ID selectors (e.g., `#id`).
+   - **Properties**: Introduced key CSS properties like `color`, `font-size`, `margin`, `padding`, and `background-color` to control various aspects of element styling.
+
+3. **Box Model**:
+   - **Box Model Concept**: Introduced the CSS Box Model, which represents how elements are rendered as boxes with content, padding, borders, and margins.
+   - **Box Model Properties**: Discussed how to control the box model using properties like `width`, `height`, `padding`, `border`, and `margin`.
+
+4. **Layout and Positioning**:
+   - **Layout Concepts**: Briefly touched on layout concepts such as block-level and inline elements, and how elements can be displayed as `block`, `inline`, `inline-block`, or `flex`.
+   - **Positioning**: Introduced the `position` property for positioning elements, including values like `relative`, `absolute`, and `fixed`.
+
+5. **Responsive Design**:
+   - **Viewport Meta Tag**: Discussed using the `viewport` meta tag to control the layout and scaling of web pages on different devices.
+
+6. **Styling Specific Elements**:
+   - **ID Selector**: Demonstrated using the `id` selector to target specific elements and apply styles, such as setting the width of an element with `#menu`.
+
+
+**link to progress:**[Coffee Shop ](https://github.com/hunterxcobby/100-days-FreeCodeCamp/tree/main/projects/Day_3)
