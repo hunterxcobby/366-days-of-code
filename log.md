@@ -1395,7 +1395,7 @@ These tasks involved code review, SQL script creation, and Python class updates 
 **link to TASK:**[Introduction to HTML](https://github.com/hunterxcobby/100-days-FreeCodeCamp/blob/main/projects/catphoto.html)
 
 
-## Day 38: February 07, 2024
+## Day 39: February 08, 2024
 
 **Today's Progress**: Arbnb clone review && Cat App Challenge on FreeCodeCamp
 
@@ -1419,7 +1419,7 @@ These tasks involved code review, SQL script creation, and Python class updates 
 **link to progress:**[Catapp challenge](https://github.com/hunterxcobby/100-days-FreeCodeCamp/tree/main/projects/Day_2)
 
 
-## Day 39: February 08, 2024
+## Day 40: February 09, 2024
 
 **Today's Progress**: Coffee Shop , Introduction to CSS
 
