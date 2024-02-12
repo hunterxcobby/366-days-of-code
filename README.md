@@ -24,5 +24,7 @@ This is to keep my progress log of coding consistently for 336 days this year 20
 |[Day 37](log.md#day-37-february-06-2024) **06/02/24**| **Python**: Django Assigment && Importation business Website |[Day 38](log.md#day-38-february-07-2024) **07/02/24**| **HTML**: elements && attributes, forms, inputs, action, submit |
 |[Day 39](log.md#day-39-february-08-2024) **08/02/24**| **Python && HTML**: AirBnB Clone , Form Elements and Attributes |[Day 40](log.md#day-40-february-09-2024) **09/02/24**| **CSS && HTML**: Coffee Shop |
 |[Day 41](log.md#day-41-february-10-2024) **10/02/24**| **CSS && HTML**: Coffee Shop Completed |[Day 42](log.md#day-42-february-11-2024) **11/02/24**| **CSS && HTML**: Colored Marker|
+[Day 43](log.md#day-43-february-12-2024) **12/02/24**| **CSS && HTML**: Colored Marker|
+
 
 
