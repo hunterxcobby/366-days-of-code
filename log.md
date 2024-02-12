@@ -1504,3 +1504,22 @@ These tasks involved code review, SQL script creation, and Python class updates 
 
 **link to progress:**[Color Markers ](https://github.com/hunterxcobby/100-days-FreeCodeCamp/tree/main/projects/Day_5)
 
+
+## Day 42: February 12, 2024
+
+**Today's Progress**: CSS Color Markers 
+
+1. **CSS Styling**:
+   - Explored various CSS styling techniques such as setting colors, fonts, margins, padding, borders, and backgrounds.
+   - Covered box model concepts including content, padding, borders, and margins.
+   - Demonstrated how to style text, links, images, forms, lists, and layout elements using CSS.
+
+2. **Responsive Design**:
+   - Introduced the concept of responsive design and discussed the importance of creating web pages that adapt to different screen sizes and devices.
+   - Covered the use of meta tags like `<meta name="viewport" content="width=device-width, initial-scale=1.0">` to optimize web page layout on various devices.
+
+3. **Color Theory**:
+   - Explained color theory concepts including primary colors, secondary colors, and the RGB color model used in digital media.
+   - Discussed how colors are created by mixing different intensities of red, green, and blue light in the RGB color model.
+
+**link to progress:**[Color Markers](https://github.com/hunterxcobby/100-days-FreeCodeCamp/tree/main/projects/Day_6)
