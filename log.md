@@ -1523,3 +1523,26 @@ These tasks involved code review, SQL script creation, and Python class updates 
    - Discussed how colors are created by mixing different intensities of red, green, and blue light in the RGB color model.
 
 **link to progress:**[Color Markers](https://github.com/hunterxcobby/100-days-FreeCodeCamp/tree/main/projects/Day_6)
+
+
+## Day 43: February 13, 2024
+
+**Today's Progress**: MySQL, Replication && Redundacy
+
+
+1. Researched and learned about setting up MySQL replication for redundancy and load distribution.
+2. Studied the Feynman learning technique to understand complex concepts as a beginner.
+3. Investigated the main role of a database, understanding it as a structured collection of data.
+4. Explored the concept of a database replica, learning about its advantages in redundancy and load distribution.
+5. Discussed the purpose of a database replica, highlighting redundancy and load distribution as its main objectives.
+6. Analyzed the importance of storing database backups in different physical locations for disaster recovery and data protection.
+7. Examined the necessity of regularly testing database backup strategies to ensure their effectiveness.
+8. Encountered an access denied error while trying to access MySQL as root, prompting troubleshooting steps to resolve the issue.
+9. Explored the process of installing MySQL on multiple servers and configuring its settings.
+10. Set up MySQL replication between web-01 and web-02 servers, ensuring redundancy and load distribution.
+11. Checked MySQL configuration files and executed commands to apply changes.
+12. Troubleshooted issues with MySQL replication, including verifying connectivity and replication status.
+13. Documented progress and tasks completed for reference and future review.
+
+
+**link to progress:**[mysql]()
