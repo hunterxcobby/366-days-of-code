@@ -1505,7 +1505,7 @@ These tasks involved code review, SQL script creation, and Python class updates 
 **link to progress:**[Color Markers ](https://github.com/hunterxcobby/100-days-FreeCodeCamp/tree/main/projects/Day_5)
 
 
-## Day 42: February 12, 2024
+## Day 43: February 12, 2024
 
 **Today's Progress**: CSS Color Markers 
 
@@ -1525,7 +1525,7 @@ These tasks involved code review, SQL script creation, and Python class updates 
 **link to progress:**[Color Markers](https://github.com/hunterxcobby/100-days-FreeCodeCamp/tree/main/projects/Day_6)
 
 
-## Day 43: February 13, 2024
+## Day 44: February 13, 2024
 
 **Today's Progress**: MySQL, Replication && Redundacy
 
