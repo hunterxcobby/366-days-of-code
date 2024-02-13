@@ -1529,7 +1529,6 @@ These tasks involved code review, SQL script creation, and Python class updates 
 
 **Today's Progress**: MySQL, Replication && Redundacy
 
-
 1. Researched and learned about setting up MySQL replication for redundancy and load distribution.
 2. Studied the Feynman learning technique to understand complex concepts as a beginner.
 3. Investigated the main role of a database, understanding it as a structured collection of data.
@@ -1545,4 +1544,4 @@ These tasks involved code review, SQL script creation, and Python class updates 
 13. Documented progress and tasks completed for reference and future review.
 
 
-**link to progress:**[mysql]()
+**link to progress:**[mysql](https://github.com/hunterxcobby/alx-system_engineering-devops/tree/master/0x14-mysql)
