@@ -1543,5 +1543,35 @@ These tasks involved code review, SQL script creation, and Python class updates 
 12. Troubleshooted issues with MySQL replication, including verifying connectivity and replication status.
 13. Documented progress and tasks completed for reference and future review.
 
-
 **link to progress:**[mysql](https://github.com/hunterxcobby/alx-system_engineering-devops/tree/master/0x14-mysql)
+
+
+## Day 44: February 13, 2024
+
+**Today's Progress**: MySQL, Replication && Redundacy
+
+1. **CSS Styling**:
+   - Applied CSS styling to customize the appearance of markers, including setting background colors, borders, padding, and margins.
+   - Utilized CSS properties like `display`, `color`, `font-size`, `border-radius`, `box-shadow`, and `text-align` to enhance the visual presentation.
+
+2. **Box Model**:
+   - Demonstrated understanding of the box model by setting dimensions (width and height) for markers, as well as adjusting padding and margins for spacing.
+
+3. **Color Theory**:
+   - Incorporated color theory principles to choose appropriate colors for markers, ensuring visual appeal and readability.
+
+4. **Responsive Design**:
+   - Implemented responsive design techniques to ensure markers display properly across different screen sizes and devices.
+   - Utilized media queries and viewport meta tags to optimize layout and styling for mobile and desktop devices.
+
+5. **CSS Selectors**:
+   - Leveraged CSS selectors, including class selectors (`.class`) and element selectors, to target specific elements for styling.
+
+6. **CSS Units**:
+   - Utilized CSS units such as pixels (px) and percentages (%) to specify dimensions, spacing, and positioning of markers.
+
+9. **Project Completion**:
+   - Successfully completed the "Color Markers" challenge, showcasing understanding and application of HTML and CSS concepts.
+   - Produced a visually appealing project
+  
+**link to progress:**[Color Markers](https://github.com/hunterxcobby/100-days-FreeCodeCamp/tree/main/projects/Day_7)
