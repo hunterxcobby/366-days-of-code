@@ -1546,9 +1546,9 @@ These tasks involved code review, SQL script creation, and Python class updates 
 **link to progress:**[mysql](https://github.com/hunterxcobby/alx-system_engineering-devops/tree/master/0x14-mysql)
 
 
-## Day 44: February 13, 2024
+## Day 45: February 14, 2024
 
-**Today's Progress**: MySQL, Replication && Redundacy
+**Today's Progress**: Color Markers
 
 1. **CSS Styling**:
    - Applied CSS styling to customize the appearance of markers, including setting background colors, borders, padding, and margins.
