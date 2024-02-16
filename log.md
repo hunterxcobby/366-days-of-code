@@ -1575,3 +1575,20 @@ These tasks involved code review, SQL script creation, and Python class updates 
    - Produced a visually appealing project
   
 **link to progress:**[Color Markers](https://github.com/hunterxcobby/100-days-FreeCodeCamp/tree/main/projects/Day_7)
+
+
+## Day 46: February 15, 2024
+
+**Today's Progress**: WebStack Debuggging && Registration Forms
+
+- ### WEB STACK DEBUGGING
+1. **Researched and Gathered Information:** I consulted resources and understood the security implications of using the `root` user.
+2. **Updated Script:** I made changes to the script to:
+    - Uncomment the `user nginx;` line in the Nginx configuration file.
+    - Modify the default site configuration to listen on port 8080.
+    - Adjust file permissions.
+    - Attempt to kill Apache2 (if relevant).
+    - Restart Nginx as the `nginx` user using `sudo -u`.
+3. **Encountered Challenges:** The updated script did not achieve the desired outcome. Nginx remained running as the `www-data` user.
+4. **Sought Further Assistance:** I provided more details and requested help with troubleshooting and improvements from Gemini Ai 
+
