@@ -1574,7 +1574,7 @@ These tasks involved code review, SQL script creation, and Python class updates 
    - Successfully completed the "Color Markers" challenge, showcasing understanding and application of HTML and CSS concepts.
    - Produced a visually appealing project
   
-**link to progress:**[Color Markers](https://github.com/hunterxcobby/100-days-FreeCodeCamp/tree/main/projects/Day_7)
+**link to progress:**[Color Markers](https://github.com/hunterxcobby/100-days-FreeCodeCamp/tree/main/projects/Day_8)
 
 
 ## Day 46: February 15, 2024
@@ -1627,4 +1627,41 @@ These tasks involved code review, SQL script creation, and Python class updates 
    - Configured form submission behavior using the `action` attribute to specify the URL where form data should be sent, and the `method` attribute to specify the HTTP method (e.g., `POST`) for sending form data.
 
 
-**link to progress:**[Registration forms](https://github.com/hunterxcobby/100-days-FreeCodeCamp/tree/main/projects/Day_8)
+**link to progress:**[Registration forms](https://github.com/hunterxcobby/100-days-FreeCodeCamp/tree/main/projects/Day_9)
+
+
+## Day 47: February 16 2024
+
+**Today's Progress**: Registration Forms
+
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Account type (required)</legend>
+        <label><input type="radio" name="account-type" checked/> Personal</label>
+        <label><input type="radio" name="account-type" /> Business</label>
+      </fieldset>
+      <fieldset></fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+```
+
+**link to progress:**[Registration forms](https://github.com/hunterxcobby/100-days-FreeCodeCamp/tree/main/projects/Day_10)
