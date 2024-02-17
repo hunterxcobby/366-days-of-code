@@ -1665,3 +1665,28 @@ These tasks involved code review, SQL script creation, and Python class updates 
 ```
 
 **link to progress:**[Registration forms](https://github.com/hunterxcobby/100-days-FreeCodeCamp/tree/main/projects/Day_10)
+
+
+
+## Day 48: February 17 2024
+
+**Today's Progress**: Introdcution to Web Frameworks && Registration Forms
+
+**Key Learnings:**
+
+* Understood the purpose and benefits of using web frameworks for web development.
+* Learned about the two main types of frameworks: **server-side** and **client-side**.
+* Gained insight into the **MVC architecture** used in many frameworks and its separation of concerns (Model, View, Controller).
+* Explored various advantages of using frameworks, including security, URL mapping, efficiency, cost, and support.
+
+**Completed Activities:**
+
+* Read and understood various learning materials on web frameworks.
+* Participated in an interactive learning session using the Feynman Technique.
+* Asked clarifying questions and engaged in discussions about different concepts.
+
+**link to notes:**[Web Frameworks](https://github.com/hunterxcobby/WEB-DEV_learning/tree/main/web_flask/0-web_frameworks)
+
+**Online registration form**
+
+**link to progress:**[Registration forms](https://github.com/hunterxcobby/100-days-FreeCodeCamp/tree/main/projects/Day_11)
