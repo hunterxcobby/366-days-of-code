@@ -27,6 +27,7 @@ This is to keep my progress log of coding consistently for 336 days this year 20
 |[Day 43](log.md#day-43-february-12-2024) **12/02/24**| **CSS && HTML**: Colored Marker|[Day 44](log.md#day-44-february-13-2024) **13/02/24**| **MySQL**: Redundancy && Replications |
 |[Day 45](log.md#day-45-february-14-2024) **14/02/24**| **CSS**: Color Markers |
 |[Day 47](log.md#day-47-february-16-2024) **16/02/24**| **HTML && CSS**: Registration forms |[Day 48](log.md#day-48-february-17-2024) **17/02/24**|  Web Frameworks, Registration forms |
+|[Day 49](log.md#day-49-february-18-2024) **18/02/24**|  Registration forms |
 
 
 
