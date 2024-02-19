@@ -1745,3 +1745,10 @@ These tasks involved code review, SQL script creation, and Python class updates 
 ```
 
 **link to progress:**[Registration forms](https://github.com/hunterxcobby/100-days-FreeCodeCamp/tree/main/projects/Day_12)
+
+
+## Day 50: February 19 2024
+
+**Today's Progress**: Registration Forms(finally completed)
+
+**link to progress:**[Registration forms](https://github.com/hunterxcobby/100-days-FreeCodeCamp/tree/main/projects/Day_13)
