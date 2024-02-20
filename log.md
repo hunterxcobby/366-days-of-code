@@ -1752,3 +1752,27 @@ These tasks involved code review, SQL script creation, and Python class updates 
 **Today's Progress**: Registration Forms(finally completed)
 
 **link to progress:**[Registration forms](https://github.com/hunterxcobby/100-days-FreeCodeCamp/tree/main/projects/Day_13)
+
+
+
+## Day 51: February 20 2024
+
+**Today's Progress**:Flask Web Development
+
+**Session Objectives:**
+
+* Explore various aspects of Flask web development.
+* Gain understanding of key concepts like cookies, redirects, errors, responses, APIs, sessions, message flashing, logging, middleware, and extensions.
+* Discuss best practices and potential issues for each topic.
+
+**Completed Tasks:**
+
+* Deeply explored "Cookies in Flask," including reading, setting, securing, and best practices.
+* Discussed "Redirects and Errors," covering redirecting users and gracefully handling errors with different status codes.
+* Demystified "About Responses," explaining response objects, conversion logic, and customization options.
+* Built a comprehensive guide on "APIs with JSON," focusing on serialization, data handling, and security considerations.
+* Provided a thorough explanation of "Sessions" in Flask, covering basic usage, security aspects, and alternative storage mechanisms.
+* Created a secure guide on generating "Good Secret Keys" and storing them safely.
+* Offered a combined response on "Message Flashing," logging, WSGI middleware, and using Flask extensions, incorporating feedback and best practices.
+
+**link to notes:**[Web Flak Development](https://github.com/hunterxcobby/WEB-DEV_learning/tree/main/web_flask)
