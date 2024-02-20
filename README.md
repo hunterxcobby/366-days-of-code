@@ -28,6 +28,6 @@ This is to keep my progress log of coding consistently for 336 days this year 20
 |[Day 45](log.md#day-45-february-14-2024) **14/02/24**| **CSS**: Color Markers |
 |[Day 47](log.md#day-47-february-16-2024) **16/02/24**| **HTML && CSS**: Registration forms |[Day 48](log.md#day-48-february-17-2024) **17/02/24**|  Web Frameworks, Registration forms |
 |[Day 49](log.md#day-49-february-18-2024) **18/02/24**|  Registration forms |[Day 50](log.md#day-50-february-19-2024) **19/02/24**|  Registration forms |
-
+|[Day 51](log.md#day-51-february-20-2024) **20/02/24**|  Flask Web Development |
 
 
