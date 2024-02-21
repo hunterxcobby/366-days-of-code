@@ -1776,3 +1776,32 @@ These tasks involved code review, SQL script creation, and Python class updates 
 * Offered a combined response on "Message Flashing," logging, WSGI middleware, and using Flask extensions, incorporating feedback and best practices.
 
 **link to notes:**[Web Flak Development](https://github.com/hunterxcobby/WEB-DEV_learning/tree/main/web_flask)
+**link to progress:**[Registration forms](https://github.com/hunterxcobby/100-days-FreeCodeCamp/tree/main/projects/Day_14)
+
+
+## Day 52: February 21 2024
+
+**Today's Progress**: Survey Forms
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <input id="name" placeholder="Enter your name" required>
+      <input id="email" type="email" placeholder="Enter your Email" required>
+      <input id="number" type="number" min="20" max="100" placeholder="Age">
+      <label id="name-label">Name</label>
+      <label id="email-label">Email</label>
+      <label id="number-label">Age</label>
+    </form>
+  </body>
+</html>
+
+**link to progress:**[Registration forms](https://github.com/hunterxcobby/100-days-FreeCodeCamp/tree/main/projects/Day_15)
