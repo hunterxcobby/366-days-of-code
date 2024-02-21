@@ -1783,6 +1783,7 @@ These tasks involved code review, SQL script creation, and Python class updates 
 
 **Today's Progress**: Survey Forms
 
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -1803,5 +1804,6 @@ These tasks involved code review, SQL script creation, and Python class updates 
     </form>
   </body>
 </html>
+```
 
 **link to progress:**[Registration forms](https://github.com/hunterxcobby/100-days-FreeCodeCamp/tree/main/projects/Day_15)
