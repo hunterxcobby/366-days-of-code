@@ -1,5 +1,4 @@
 
-
 ## Day 64: January 01, 2024
 
 **Today's Progress**: Web Infrastructure design - DNS, HTTPS/HTTP, SPOF, Firewalls
@@ -1847,3 +1846,6 @@ These tasks involved code review, SQL script creation, and Python class updates 
 - I gained a solid understanding of REST APIs, their design principles, and potential challenges.
 - I learned about cross-domain communication with CORS and how to choose the right tools for different tasks.
 - I explored popular data formats and Pythonic naming conventions.
+
+
+**link to progress:**[Restful Apis](https://github.com/hunterxcobby/system-devops_learning/tree/main/shell_scripting/0x15-api/1-Rest_API)
