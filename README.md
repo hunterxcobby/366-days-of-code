@@ -25,7 +25,7 @@ This is to keep my progress log of coding consistently for 336 days this year 20
 |[Day 39](log.md#day-39-february-08-2024) **08/02/24**| **Python && HTML**: AirBnB Clone , Form Elements and Attributes |[Day 40](log.md#day-40-february-09-2024) **09/02/24**| **CSS && HTML**: Coffee Shop |
 |[Day 41](log.md#day-41-february-10-2024) **10/02/24**| **CSS && HTML**: Coffee Shop Completed |[Day 42](log.md#day-42-february-11-2024) **11/02/24**| **CSS && HTML**: Colored Marker|
 |[Day 43](log.md#day-43-february-12-2024) **12/02/24**| **CSS && HTML**: Colored Marker|[Day 44](log.md#day-44-february-13-2024) **13/02/24**| **MySQL**: Redundancy && Replications |
-|[Day 45](log.md#day-45-february-14-2024) **14/02/24**| **CSS**: Color Markers |
+|[Day 45](log.md#day-45-february-14-2024) **14/02/24**| **CSS**: Color Markers |[Day 46](log.md#day-46-february-15-2024) **15/02/24**| **HTML && CSS**: Registration forms |
 |[Day 47](log.md#day-47-february-16-2024) **16/02/24**| **HTML && CSS**: Registration forms |[Day 48](log.md#day-48-february-17-2024) **17/02/24**|  Web Frameworks, Registration forms |
 |[Day 49](log.md#day-49-february-18-2024) **18/02/24**|  Registration forms |[Day 50](log.md#day-50-february-19-2024) **19/02/24**|  Registration forms |
 |[Day 51](log.md#day-51-february-20-2024) **20/02/24**|  Flask Web Development |[Day 52](log.md#day-52-february-21-2024) **21/02/24**|**HTML && CSS**:  Survey Forms |
