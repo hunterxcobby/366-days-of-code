@@ -1911,3 +1911,37 @@ These tasks involved code review, SQL script creation, and Python class updates 
 * Balancing the separation of concerns between templates and application logic.
 
 **link to progress:**[Django Templating Language](https://github.com/hunterxcobby/WEB-DEV_learning/tree/main/django-2/my_project)
+
+
+
+## Day 56: February 25 2024
+
+**Today's Progress**: Understanding HTTP Methods, MVT Architecture, and Static Files
+
+* **HTTP Methods:** Researched and gained basic understanding of common HTTP methods used in web communication:
+    * **GET:** Retrieving information from a server.
+    * **POST:** Submitting data to a server (e.g., form submission).
+    * **PUT:** Updating existing data on a server.
+    * **DELETE:** Removing data from a server.
+* **MVT Architecture:** Studied the Model-View-Template (MVT) architecture commonly used in web frameworks like Django:
+    * **Model:** Represents data and its relationships.
+    * **View:** Handles user requests and interacts with the model.
+    * **Template:** Renders the final HTML response based on data provided by the view.
+    * Understood the benefits of separation of concerns in MVT.
+* **Static Files:** Learned about the concept of static files in web development:
+    * Unchanging files like images, CSS stylesheets, and JavaScript files.
+    * Typically served directly by the web server without involving the web application logic.
+    * Understood the importance of efficient static file serving for optimizing website performance.
+
+**Next Steps:**
+
+* **Practice implementation:** Apply the learned concepts through code examples or small projects.
+    * Experiment with sending different HTTP requests.
+    * Simulate simple MVT interactions.
+    * Integrate static files into a basic web page.
+* **Deepen understanding:** Explore more advanced features and considerations:
+    * HTTP status codes and handling errors.
+    * Different approaches to routing in web frameworks.
+    * Optimizing static file delivery with caching and compression techniques.
+
+**link to progress:**[Django Templating Language](https://github.com/hunterxcobby/WEB-DEV_learning/tree/main/django-2/my_project)
