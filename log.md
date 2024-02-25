@@ -1849,3 +1849,35 @@ These tasks involved code review, SQL script creation, and Python class updates 
 
 
 **link to progress:**[Restful Apis](https://github.com/hunterxcobby/system-devops_learning/tree/main/shell_scripting/0x15-api/1-Rest_API)
+
+
+## Day 54: February 23 2024
+
+**Today's Progress**: Survey Forms
+
+* **HTML Structure:** Built the basic HTML structure using elements like `form`, `input`, `label`, and `div` to create the layout for the survey questions, answer options, and submit button.
+* **CSS Styling:** Started applying basic CSS styles to the form, including:
+    * **Body:** Centering the content, adding padding for spacing.
+    * **Main container:** Defining background color, margins, padding, and text styles.
+    * **Labels:** Styling the text and layout of question labels.
+    * **Inputs:** Setting display type and adjusting spacing using margins.
+* **Testing:** Performing basic functionality tests on the form to ensure proper rendering and interaction with different browsers.
+
+**Next Steps:**
+
+* **Finalize question content:** Create the individual questions with appropriate answer options.
+* **Implement advanced styling:** Enhance the visual design of the form, including:
+    * Using Flexbox or Grid for layout flexibility.
+    * Adding interactive elements like hover effects on buttons.
+    * Incorporating visual feedback for correct/incorrect answers (optional).
+* **Validation:** Implement basic input validation to ensure users provide required information and select valid answers (optional).
+
+
+**Challenges encountered:**
+
+* Balancing the complexity of the survey form with the intended learning experience for beginners in CSS and HTML.
+* Choosing the right level of styling to showcase both basic and intermediate CSS capabilities.
+
+**link to progress:**[Registration forms](https://github.com/hunterxcobby/100-days-FreeCodeCamp/tree/main/projects/Day_17)
+
+
