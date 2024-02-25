@@ -1878,6 +1878,36 @@ These tasks involved code review, SQL script creation, and Python class updates 
 * Balancing the complexity of the survey form with the intended learning experience for beginners in CSS and HTML.
 * Choosing the right level of styling to showcase both basic and intermediate CSS capabilities.
 
-**link to progress:**[Registration forms](https://github.com/hunterxcobby/100-days-FreeCodeCamp/tree/main/projects/Day_17)
+**link to progress:**[Survey forms](https://github.com/hunterxcobby/100-days-FreeCodeCamp/tree/main/projects/Day_17)
 
 
+## Day 54: February 23 2024
+
+**Today's Progress**: Django Templating Language
+
+* **Project setup:** Installed and configured the Django framework, including creating a new project and app.
+* **Template creation:** Created basic HTML templates for the website's main layout, including header, footer, and content sections.
+* **Variables and Context:** Defined context data (variables) containing information to be displayed in the templates, like website title and navigation links.
+* **DTL basics:** Learned and implemented basic DTL commands:
+    * `{{ variable }}`: Displaying the value of a variable.
+    * `{% for item in list %}{% endfor %}`: Looping through a list of items.
+    * `{% if condition %}{% else %}{% endif %}`: Conditional statements for displaying content based on logic.
+* **Template inheritance:** Applied template inheritance to create a base template for consistent header and footer across all pages.
+* **Basic styling:** Integrated CSS stylesheets for styling the webpage elements.
+
+**Next Steps:**
+
+* **Advanced DTL features:** Explore more advanced DTL functionalities like:
+    * Filters for manipulating data before display (e.g., uppercase, truncate text).
+    * Tags for advanced functionalities like forms, user authentication, pagination.
+* **Dynamic content:** Integrate database interaction through models and views:
+    * Display content from the database in the templates.
+    * Handle user input forms and update data accordingly.
+
+**Challenges encountered:**
+
+* Understanding the different components of DTL and their syntax.
+* Implementing conditional logic and loops effectively within the template context.
+* Balancing the separation of concerns between templates and application logic.
+
+**link to progress:**[Django Templating Language](https://github.com/hunterxcobby/WEB-DEV_learning/tree/main/django-2/my_project)
