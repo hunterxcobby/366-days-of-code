@@ -31,5 +31,6 @@ This is to keep my progress log of coding consistently for 336 days this year 20
 |[Day 51](log.md#day-51-february-20-2024) **20/02/24**|  Flask Web Development |[Day 52](log.md#day-52-february-21-2024) **21/02/24**|**HTML && CSS**:  Survey Forms |
 |[Day 53](log.md#day-53-february-22-2024) **22/02/24**|  Exploring Apis and beyond |[Day 54](log.md#day-54-february-23-2024) **23/02/24**| **HTML && CSS**:  Survey Forms |
 |[Day 55](log.md#day-55-february-24-2024) **24/02/24**| Django Templating Language |[Day 56](log.md#day-56-february-25-2024) **25/02/24**| **Python**:  HTTP methods, MVT, Static Files |
+|[Day 57](log.md#day-57-february-26-2024) **26/02/24**| **Python**:  Exploring Django Models, Migrations, Admin Panel, and User Registration |
 
 
